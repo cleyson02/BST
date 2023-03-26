@@ -3,7 +3,7 @@ public class Node {
     private Node left;
     private Node right;
 
-    public Node(int value){
+    public Node(int value) {
         this.value = value;
     }
 
@@ -25,5 +25,9 @@ public class Node {
 
     public void setLeft(Node n) {
         left = n;
+    }
+
+    public void setValue(int n) {
+        value = n;
     }
 }
